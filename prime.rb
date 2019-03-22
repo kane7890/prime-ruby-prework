@@ -8,7 +8,7 @@ def prime?(num)
   while i <= (num / 2)
   leftover = num % i
   if leftover == 0 
-    return(false)
+    break
   end
   puts "I = #{i}, leftover = #{leftover}, cume = #{cume}"
   i+=1 
