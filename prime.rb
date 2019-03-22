@@ -3,7 +3,7 @@ def prime?(num)
   mainpart = 0
   while i <= (num / 2)
   percent = num % i
-  puts "I = #{i},Percent = #{mainpart}"
+  puts "I = #{i},Percent = #{percent}"
   i+=1 
 end
 end
