@@ -16,6 +16,7 @@ def prime?(num)
 end
  
  puts "Flag = #{flag}"
+ return (flag)
 #if leftover > 0 
  # return(true)
 #else return(false)
