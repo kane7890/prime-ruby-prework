@@ -1,13 +1,14 @@
 def prime?(num) 
   i=1
   if num < 0 
-    num2 = (-1)*num
-    num = num2
+    return(false)
   end
+  cume = 1
   mainpart = 0
   while i <= (num / 2)
   leftover = num % i
-  puts "I = #{i}, leftover = #{leftover}"
+  cume = cume * leftover
+  puts "I = #{i}, leftover = #{leftover}, cume = #{cume}"
   i+=1 
 end
 if leftover > 0 
