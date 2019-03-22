@@ -5,18 +5,21 @@ def prime?(num)
   end
   cume = 1
   mainpart = 0
+  flag = true
   while i <= (num / 2)
   leftover = num % i
   if leftover == 0 
-    return(false)
+     flag = false
   end
   puts "I = #{i}, leftover = #{leftover}, cume = #{cume}"
   i+=1 
 end
-if leftover > 0 
-  return(true)
-else return(false)
-end
+ 
+ puts "Flag = #{flag}"
+#if leftover > 0 
+ # return(true)
+#else return(false)
+#end
 end
   
   # Add  code here!
