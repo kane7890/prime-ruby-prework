@@ -3,7 +3,7 @@ def prime?(num)
   mainpart = 0
   while i <= (num / 2)
   mainpart = num / i
-  puts "Mainpart = #{mainpart}"
+  puts "I = #{i}, Mainpart = #{mainpart}"
   i+=1 
 end
 end
