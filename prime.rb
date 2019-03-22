@@ -9,6 +9,7 @@ def prime?(num)
   leftover = num % i
   if leftover == 0 
     return(false)
+  end
   puts "I = #{i}, leftover = #{leftover}, cume = #{cume}"
   i+=1 
 end
