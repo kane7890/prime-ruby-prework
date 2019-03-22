@@ -11,7 +11,7 @@ def prime?(num)
   if (leftover == 0  && i > 1)
      flag = false
   end
-  puts "I = #{i}, leftover = #{leftover}, cume = #{cume}"
+ # puts "I = #{i}, leftover = #{leftover}, cume = #{cume}"
   i+=1 
 end
  
