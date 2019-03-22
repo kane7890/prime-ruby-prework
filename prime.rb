@@ -6,5 +6,6 @@ def prime?(num)
   puts "Mainpart = #{mainpart}"
   i+=1 
 end
+end
   
   # Add  code here!
